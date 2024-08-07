@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import BgImage from '../../assets/images/bg.jpg'
 
 const Hero = () => {
   return (
