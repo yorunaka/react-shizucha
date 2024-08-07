@@ -1,15 +1,15 @@
 import React from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
 
-const Navbar = () => {
+const Navbar = ({sidebar, setSidebar}) => {
   return (
     <nav className='absolute top-0 left-0 w-full z-20 pt-5'>
         <div className="container">
             <div className='flex justify-between items-center'>
                 <h1>
-                    <a href="#" className='text-white text-2xl font-semibold uppercase'><span className='text-yellow-400'>Shizu</span>cha</a>
+                    <a href="#" className='text-white text-3xl font-bold uppercase tracking-tight'>Shizu<span className='text-yellow-400'>cha</span></a>
                 </h1>
-                <div>
+                <div onClick={() => setSidebar(!sidebar)}>
                     <GiHamburgerMenu className='text-white text-3xl cursor-pointer'/>
                 </div>
             </div>
