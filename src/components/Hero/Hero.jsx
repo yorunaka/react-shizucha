@@ -1,5 +1,6 @@
 import React from 'react'
 import background from '../../assets/bg.jpg'
+import Navbar from '../Navbar/Navbar'
 
 const bgimg = {
   backgroundImage: `url(${background})`,
@@ -12,10 +13,10 @@ const bgimg = {
 const Hero = () => {
   return (
   <main style={bgimg}>
-    <section className="min-h-[750px] w-full bg-yellow-800/40 z-10">
+    <section className="relative min-h-[750px] w-full bg-yellow-800/40 z-10">
         <div className="container">
         {/* Navbar Section */}
-
+        <Navbar />
         {/* Hero Section */}
           <div className="min-h-[500px]">
             <div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-56'>
@@ -31,6 +32,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
+        {/* Sidebar Section */}
     </section>
   </main>
   );
