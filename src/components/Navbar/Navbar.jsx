@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="container">
             <div className='flex justify-between items-center'>
                 <h1>
-                    <a href="#" className='text-white text-2xl font-semibold'>Shizucha</a>
+                    <a href="#" className='text-white text-2xl font-semibold uppercase'><span className='text-yellow-400'>Shizu</span>cha</a>
                 </h1>
                 <div>
                     <GiHamburgerMenu className='text-white text-3xl cursor-pointer'/>
