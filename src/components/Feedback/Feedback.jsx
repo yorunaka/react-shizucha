@@ -1,4 +1,18 @@
 import React from 'react'
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import FeedbackItems from '../Feedback/FeedbackItems'
+import { responsive } from '../../assets/carousel';
+import { feedbackData } from '../../assets/feedbackData';
+
+const feedback = feedbackData.map((item) => 
+<FeedbackItems 
+  key={item.id}
+  feedback={item.feedback}
+  image={item.image}
+  name={item.name}
+/>
+);
 
 const Feedback = () => {
   return (
@@ -9,7 +23,16 @@ const Feedback = () => {
             <h1 className='text-3xl font-bold text-white text-wrap'>Apa kata mereka tentang Shizucha?</h1>
         </div>
         {/* Feedback Card Section */}
-
+    <div className="carousel-container">
+      <Carousel 
+      infinite={true}
+      autoPlay={true}
+      autoPlaySpeed={5000}
+      responsive={responsive}
+      >
+        {feedback}
+      </Carousel>
+    </div>
     </div>
     </section>
   )

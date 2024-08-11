@@ -45,9 +45,9 @@ const Hero = () => {
               <div className="w-[70px] h-[1px] bg-white"></div>
               <div>
                 <ul>
-                  <li className="text-white text-lg"><a href="">Tentang Kami</a></li>
-                  <li className="text-white text-lg"><a href="">Produk</a></li>
-                  <li className="text-white text-lg"><a href="">Kontak Kami</a></li>
+                  <li className="text-white text-lg pt-4"><a href="">Tentang Kami</a></li>
+                  <li className="text-white text-lg pt-4"><a href="">Produk</a></li>
+                  <li className="text-white text-lg pt-4"><a href="">Kontak Kami</a></li>
                 </ul>
               </div>
               <div className="w-[70px] h-[1px] bg-white"></div>
