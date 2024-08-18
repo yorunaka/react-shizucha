@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './components/Hero/Hero'
 import Feedback from './components/Feedback/Feedback'
 import Products from './components/Products/Products'
+import Contacts from './components/Contacts/Contacts'
 
 const App = () => {
   const [data, setData] = React.useState(null);
@@ -17,6 +18,7 @@ const App = () => {
       <Hero />
       <Feedback />
       <Products />
+      <Contacts />
     </div>
   )
 }
