@@ -17,7 +17,7 @@ const products = productsData.map((item) =>
 const Product = () => {
   return (
     <section className='w-full h-full top-0 bg-yellow-700/30'>
-      <div className='text-white text-center font-bold text-3xl pt-16 space-y-4'>
+      <div className='text-white text-center font-bold text-3xl py-14'>
         <h1>Produk</h1>
       </div>
       {/* products section */}
