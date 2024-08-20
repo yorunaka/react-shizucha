@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     // footer section
-    <section>
-        <div className='bg-yellow-800/30'>
+    <section className='p-16 bg-yellow-800/30'>
+        <div className=''>
             <div className='container flex justify-between items-center p-4'>
             <div className='text-white'>
                 <h1 className='text-2xl font-bold'>Shizucha</h1>
