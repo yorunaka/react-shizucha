@@ -7,34 +7,58 @@ const Contacts = () => {
             <h1>Kontak Kami</h1>
         </div>
         {/* Contacts Section */}
-        <div className='container bg-yellow-800/30 rounded-xl p-6'>
-        <div className='grid grid-cols-2 gap-8 w-1/2'>
+        <div className='container bg-yellow-800/30 rounded-xl p-6 max-w-full'>
+        <div className=''>
             {/* deskripsi */}
-            <div className='pl-6'>
-                <div className='flex gap-3 pt-4 pb-4'>
+            <div className='pl-16 grid'>
+                <figure className='flex gap-3 pt-4 pb-4'>
+                  <img className='w-auto h-10 my-auto' width="50" height="50" src="src/assets/exterior.png" alt="exterior"/>
                   <div>
-                    <img width="30" height="30" src="https://img.icons8.com/ios/50/exterior.png" alt="exterior"/>
+                    <blockquote>
+                      <h3 className='text-nowrap font-semibold'>Alamat Kami</h3>
+                    </blockquote>
+                    <figcaption>
+                      <p>
+                        Jl. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quo, et aliquid.
+                      </p>
+                    </figcaption>
                   </div>
+                </figure>
+                <figure className='flex gap-3 pt-4 pb-4'>
+                  <img className='w-auto h-10 my-auto' width="50" height="50" src="src/assets/phone.png" alt="phone"/>
                   <div>
-                    <h3 className='text-nowrap'>Alamat Kami</h3>
+                    <blockquote>
+                      <h3 className='text-nowrap font-semibold'>Kontak Kami</h3>
+                    </blockquote>
+                    <figcaption>
+                      <p>
+                        081234567890
+                      </p>
+                    </figcaption>
                   </div>
-                </div>
-                <div className='flex gap-3 pt-4 pb-4'>
-                  <div className=''>
-                    <img width="30" height="30" src="https://img.icons8.com/ios/50/phone.png" alt="phone"/>
+                </figure>
+                <figure className='flex gap-3 pt-4 pb-4'>
+                    <img className='w-auto h-10 my-auto' width="50" height="50" src="src/assets/mail.png" alt="mail"/>
+                  <div>                  
+                    <blockquote>
+                      <h3 className='text-nowrap font-semibold'>Email</h3>
+                    </blockquote>
+                    <figcaption>
+                      <p>shizucha@business.com</p>
+                    </figcaption>
                   </div>
-                  <div>
-                    <h3 className='text-nowrap'>Kontak Kami</h3>
-                  </div>
-                </div>
-                <div className='flex gap-3 pt-4 pb-4'>
-                  <div>
-                    <img width="30" height="30" src="https://img.icons8.com/ios/50/mail.png" alt="mail"/> 
-                  </div>
-                  <div>
-                    <h3 className='text-nowrap'>Email</h3>
-                  </div>
-                </div>
+                </figure>
+            </div>
+            {/* form */}
+            <div className=''>
+                <form className='flex flex-col gap-4'>
+                    <input type="text" placeholder='Nama Lengkap' className='rounded-lg p-2'/>
+                    <input type="email" placeholder='Email' className='rounded-lg p-2'/>
+                    <input type="text" placeholder='Subjek' className='rounded-lg p-2'/>
+                    <textarea rows='5' placeholder='Pesan' className='rounded-lg p-2'></textarea>
+                    <button className='bg-yellow-700/70 rounded-lg p-2'>Kirim</button>
+                </form>
             </div>
         </div>
         </div>
