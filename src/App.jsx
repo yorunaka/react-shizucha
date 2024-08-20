@@ -3,6 +3,7 @@ import Hero from './components/Hero/Hero'
 import Feedback from './components/Feedback/Feedback'
 import Products from './components/Products/Products'
 import Contacts from './components/Contacts/Contacts'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   const [data, setData] = React.useState(null);
@@ -19,6 +20,7 @@ const App = () => {
       <Feedback />
       <Products />
       <Contacts />
+      <Footer />
     </div>
   )
 }
