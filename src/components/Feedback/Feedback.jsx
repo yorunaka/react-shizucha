@@ -23,7 +23,7 @@ const Feedback = () => {
             <h1 className='text-3xl font-bold text-white text-wrap'>Apa kata mereka tentang Shizucha?</h1>
         </div>
         {/* Feedback Card Section */}
-    <div className="carousel-container">
+    <div className="carousel-container lg:content-center lg:max-w-4xl">
       <Carousel 
       infinite={true}
       autoPlay={true}
