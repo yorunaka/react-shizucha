@@ -2,8 +2,8 @@ import React from 'react'
 
 const FeedbackItems = (props) => {
   return (
-    <div className='bg-white/35 max-w-[800px] max-h-[500px] p-6 grid content-evenly rounded-2xl lg:h-max'>
-      <h1 className='text-center text-lg font-medium ml-5 mr-5 mb-2 lg:text-balance'>
+    <div className='bg-white/35 max-w-max max-h-max w-full h-full p-6 rounded-2xl justify-items-center lg:h-full '>
+      <h1 className='text-center text-lg font-medium ml-5 mr-5 mb-2 lg:text-balance lg:items-center'>
         "{props.feedback}"
       </h1>
       <div className='grid justify-center items-center pt-2'>

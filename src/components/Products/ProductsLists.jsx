@@ -10,7 +10,7 @@ const ProductsLists = (props) => {
         <img src={props.images} alt={props.id} className='rounded-xl h-[300px] w-[300px]'/>
       </div>
         <div className='m-5'>
-          <p className='text-balance'>{props.descriptions}</p>
+          <p className='text-balance truncate'>{props.descriptions}</p>
         </div>
           <div className='grid justify-items-center pt-2'>
             <a href="#" className='button nline-flex items-center px-5 py-3 text-sm font-medium text-center text-white bg-yellow-700 rounded-lg'>Order Here!</a>
