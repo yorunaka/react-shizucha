@@ -16,12 +16,12 @@ const products = productsData.map((item) =>
 
 const Product = () => {
   return (
-    <section className='w-full h-full top-0 bg-yellow-700/30'>
+    <section className='w-full h-full top-0 bottom-0 bg-yellow-700/30 pb-14'>
       <div className='text-white text-center font-bold text-3xl py-14'>
         <h1>Produk</h1>
       </div>
       {/* products section */}
-      <div className='grid grid-cols-2 p-6 gap-8 lg:grid-cols-3'>
+      <div className='w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5'>
         {/* produk 1 */}
         {products}
       </div>
