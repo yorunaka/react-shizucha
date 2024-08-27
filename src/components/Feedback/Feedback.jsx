@@ -26,7 +26,7 @@ const Feedback = () => {
     <div className="container lg:justify-items-center">
       <Carousel
       infinite={true}
-      autoPlay={false}
+      autoPlay={true}
       autoPlaySpeed={5000}
       responsive={responsive}
       >
