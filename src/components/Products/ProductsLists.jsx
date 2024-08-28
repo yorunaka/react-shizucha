@@ -17,7 +17,7 @@ const ProductsLists = (props) => {
                 </del>
             </div>
               <div className='grid justify-items-center pt-2'>
-                <a href="#" className='button nline-flex items-center px-5 py-3 text-sm font-medium text-center text-white bg-yellow-700 rounded-lg'>Order Here!</a>
+                <a href="#" className='button nline-flex items-center px-5 py-3 text-sm font-medium text-center text-white bg-yellow-700 rounded-lg'>Pesan Disini!</a>
               </div>
         </div>
     </a>
