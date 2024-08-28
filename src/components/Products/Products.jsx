@@ -16,7 +16,7 @@ const products = productsData.map((item) =>
 
 const Product = () => {
   return (
-    <section className='w-full h-full top-0 bottom-0 bg-yellow-700/30 pb-14'>
+    <section className='w-full h-full top-0 bottom-0 bg-yellow-700/30 pb-14' id='produk'>
       <div className='text-white text-center font-bold text-3xl py-14'>
         <h1>Produk</h1>
       </div>

@@ -16,8 +16,11 @@ const ProductsLists = (props) => {
                     <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
                 </del>
             </div>
+            <div className=''>
+              <p className='text-sm line-clamp-5 text-balance overflow-hidden'>{props.descriptions}</p>
+            </div>
               <div className='grid justify-items-center pt-2'>
-                <a href="#" className='button nline-flex items-center px-5 py-3 text-sm font-medium text-center text-white bg-yellow-700 rounded-lg'>Pesan Disini!</a>
+                <a href="#" className='button nline-flex items-center px-5 py-3 text-sm font-medium text-center text-white bg-yellow-700 rounded-lg hover:bg-yellow-900 duration-500'>Pesan Disini!</a>
               </div>
         </div>
     </a>

@@ -27,7 +27,7 @@ const Hero = () => {
               </div>
               <div class="hidden sm:pt-7 sm:flex sm:justify-center">
                   <div class=" bg-white/90 shadow-xl hover:shadow-black/50 relative rounded-full px-3 py-1 text-md leading-6 text-gray-600 hover:ring-gray-900/80">
-                    Tertarik Mencoba? <a href="#" class="font-semibold text-yellow-600"><span class="absolute inset-0" aria-hidden="true"></span>Klik Disini!</a>
+                    Tertarik Mencoba? <a href="#produk" class="font-semibold text-yellow-600"><span class="absolute inset-0" aria-hidden="true"></span>Klik Disini!</a>
                   </div>
               </div>
             </div>
