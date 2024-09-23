@@ -2,18 +2,18 @@ import React from 'react'
 
 const Contacts = () => {
   return (
-    <section className='top-0 w-full h-full bg-yellow-800/30'>
-        <div className='text-white text-center text-3xl font-bold py-14'>
+    <section className='top-0 w-full h-full bg-yellow-800/40' id='contacts'>
+        <div className='text-white text-center text-3xl font-bold py-14 mb-4'>
             <h1>Kontak Kami</h1>
         </div>
         {/* Contacts Section */}
-        <div className='container bg-yellow-800/30 rounded-xl p-9 max-w-full'>
+        <div className='container bg-yellow-800/20 p-16 max-w-full'>
         <div className='lg:grid lg:grid-cols-2 lg:justify-center lg:gap-4'>
         <div className='lg:self-center'>
             {/* deskripsi */}
             <div className='pl-16 lg:w-auto'>
                 <figure className='flex gap-3 pt-4 pb-4'>
-                  <img className='w-auto h-10 my-auto' width="50" height="50" src="src/assets/exterior.png" alt="exterior"/>
+                  <img className='w-auto h-10 my-auto' width="50" height="50" src="../src/assets/exterior.png" alt="exterior"/>
                   <div>
                     <blockquote>
                       <h3 className='text-nowrap font-semibold'>Alamat Kami</h3>
@@ -27,20 +27,20 @@ const Contacts = () => {
                   </div>
                 </figure>
                 <figure className='flex gap-3 pt-4 pb-4'>
-                  <img className='w-auto h-10 my-auto' width="50" height="50" src="src/assets/phone.png" alt="phone"/>
+                  <img className='w-auto h-10 my-auto' width="50" height="50" src="../src/assets/phone.png" alt="phone"/>
                   <div>
                     <blockquote>
                       <h3 className='text-nowrap font-semibold'>Kontak Kami</h3>
                     </blockquote>
                     <figcaption>
                       <p>
-                        081234567890
+                        +628 1234567890
                       </p>
                     </figcaption>
                   </div>
                 </figure>
                 <figure className='flex gap-3 pt-4 pb-4'>
-                    <img className='w-auto h-10 my-auto' width="50" height="50" src="src/assets/mail.png" alt="mail"/>
+                    <img className='w-auto h-10 my-auto' width="50" height="50" src="../src/assets/mail.png" alt="mail"/>
                   <div>                  
                     <blockquote>
                       <h3 className='text-nowrap font-semibold'>Email</h3>
