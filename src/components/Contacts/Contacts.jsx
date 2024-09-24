@@ -1,4 +1,7 @@
 import React from 'react'
+import exterior from '../../assets/exterior.png'
+import phone from '../../assets/phone.png'
+import mail from '../../assets/mail.png'
 
 const Contacts = () => {
   return (
@@ -13,7 +16,7 @@ const Contacts = () => {
             {/* deskripsi */}
             <div className='pl-16 lg:w-auto'>
                 <figure className='flex gap-3 pt-4 pb-4'>
-                  <img className='w-auto h-10 my-auto' width="50" height="50" src="../src/assets/exterior.png" alt="exterior"/>
+                  <img className='w-auto h-10 my-auto' width="50" height="50" src={exterior} alt="exterior"/>
                   <div>
                     <blockquote>
                       <h3 className='text-nowrap font-semibold'>Alamat Kami</h3>
@@ -27,7 +30,7 @@ const Contacts = () => {
                   </div>
                 </figure>
                 <figure className='flex gap-3 pt-4 pb-4'>
-                  <img className='w-auto h-10 my-auto' width="50" height="50" src="../src/assets/phone.png" alt="phone"/>
+                  <img className='w-auto h-10 my-auto' width="50" height="50" src={phone} alt="phone"/>
                   <div>
                     <blockquote>
                       <h3 className='text-nowrap font-semibold'>Kontak Kami</h3>
@@ -40,7 +43,7 @@ const Contacts = () => {
                   </div>
                 </figure>
                 <figure className='flex gap-3 pt-4 pb-4'>
-                    <img className='w-auto h-10 my-auto' width="50" height="50" src="../src/assets/mail.png" alt="mail"/>
+                    <img className='w-auto h-10 my-auto' width="50" height="50" src={mail} alt="mail"/>
                   <div>                  
                     <blockquote>
                       <h3 className='text-nowrap font-semibold'>Email</h3>
